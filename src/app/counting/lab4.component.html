@@ -1,0 +1,6 @@
+<br>
+<h2> Lab 4 ทดสอบ Directives </h2>
+<div *ngFor ="let item of item">
+    <p *ngIf = " item % 2 == 0 " class = "number-even"> {{ item }} </p>
+    <p *ngIf = " item % 2 !== 0 " class = "number-odd"> {{ item }} </p>    
+</div>

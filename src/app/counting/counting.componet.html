@@ -1,0 +1,18 @@
+<div>
+    <h2>{{ names }}</h2>
+    <div class = "header">
+       Set named: <input [(ngModel)]="names"/>
+       <button (click) = "reset()"> clear </button>
+    </div>
+    
+</div>
+
+<div class = num>
+    <h2> previous number</h2>
+    <h2> {{ counted }} </h2>
+    <h2> count number</h2>
+    <h2> {{ counts }} </h2>
+    <button (click) = "countNumber()"> Count </button>
+    <button (click) = "clear()"> Reset </button>
+
+</div>
